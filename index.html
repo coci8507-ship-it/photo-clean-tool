@@ -851,7 +851,7 @@ async function buildAndVerify(){
     if (insp.clean){
       verifyLine.className = 'verify ok';
       verifyLine.innerHTML = '✅ <b>검사 완료 — 위치·기기 정보 0건</b> · EXIF ' + insp.exif +
-        ' · GPS ' + insp.gps + ' · XMP ' + insp.xmp + ' · 남은 메타데이터 <b class="bytes">0 bytes</b> (' + human(blob.size) + ')';
+        ' · GPS ' + insp.gps + ' · XMP ' + insp.xmp + ' · 개인정보 메타데이터 <b class="bytes">0 bytes</b> (' + human(blob.size) + ')';
     } else {
       verifyLine.className = 'verify warn';
       verifyLine.innerHTML = '⚠️ 메타데이터 잔여: EXIF ' + insp.exif + ' · XMP ' + insp.xmp +
