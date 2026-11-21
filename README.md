@@ -24,7 +24,10 @@
 
 ## 배포
 
-정적 파일이므로 `index.html` 하나를 아무 정적 호스팅에 올리면 됩니다. 이 저장소는 Vercel(`kimyelin` 팀)에 배포되어 있습니다.
+정적 파일이므로 `index.html` 하나를 아무 정적 호스팅에 올리면 됩니다.
+
+- **지금 열리는 주소**: https://coci8507-ship-it.github.io/photo-clean-tool/ (GitHub Pages, `main` 브랜치 루트 → 푸시하면 자동 반영)
+- Vercel(`kimyelin` 팀) 프로젝트 `photo-clean-tool`은 배포 직전 계정 본인확인(6자리 이메일 코드) 단계에서 대기 중입니다.
 
 ## 사용 팁
 
